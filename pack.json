@@ -1,9 +1,10 @@
 {
 	"name": "Funkin",
-	"description": "Base Game in Psych Engine",
+	"description": "Base Game in Psych Engine 0.7.3",
 	"restart":false,
 	"runsGlobally": false,
 	"color": [248, 146, 182],
 	"discordRPC": "863222024192262205",
 	"iconFramerate": 10
 }
+
