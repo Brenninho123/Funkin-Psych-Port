@@ -19,7 +19,7 @@ end
 function onDestroy()
     setPropertyFromClass(playState,'SONG.arrowSkin','')
     setPropertyFromClass(playState,'SONG.splashSkin','')
-    if version > '0.6.3' then
+    if version > '0.7.3' then
         setPropertyFromClass('states.PlayState','SONG.disableNoteRGB',false)
     end
 end
@@ -34,7 +34,7 @@ function goodNoteHit(id,data,type,sus)
             else
                 local offsetX = 0
                 local offsetY = 0
-                if getPropertyFromClass('PlayState','SONG.splashSkin') == 'noteSplashes/noteSplashes' then
+                if getPropertyFromClass('states.PlayState','SONG.splashSkin') == 'noteSplashes/noteSplashes' then
                     offsetX = -40
                     offsetY = -35
                 end
