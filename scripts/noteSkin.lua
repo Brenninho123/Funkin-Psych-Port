@@ -19,7 +19,7 @@ end
 function onDestroy()
     setPropertyFromClass(playState,'SONG.arrowSkin','')
     setPropertyFromClass(playState,'SONG.splashSkin','')
-    if version > '0.7.3' then
+    if version > '0.7' then
         setPropertyFromClass('states.PlayState','SONG.disableNoteRGB',false)
     end
 end
