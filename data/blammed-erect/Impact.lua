@@ -38,7 +38,7 @@ local settings = {
           Default scales are (0.75).
      ]]
      splashScaling = {
-          {0.9, 0.9},
+          {0.94, 0.94},
           {1.0, 1.0}
      },
 
@@ -47,7 +47,7 @@ local settings = {
           First one is for player, second is opponent.
      ]]
      splashAlphas = {
-          2.0, 2.0
+          3.0, 3.0
      },
 
      --[[
