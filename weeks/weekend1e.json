@@ -1,0 +1,31 @@
+{
+	"storyName": "Due Debts",
+	"difficulties": "Erect,Nightmare",
+	"hideFreeplay": false,
+	"weekBackground": "streets",
+	"weekBefore": "week7e",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"weekCharacters": [
+		"darnell",
+		"pico-player",
+		"nene"
+	],
+	"songs": [
+		[
+			"Darnell Erect",
+			"darnell",
+			[
+				95,
+				64,
+				166
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Week End 1 Erect"
+}

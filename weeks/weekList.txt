@@ -15,4 +15,5 @@ week5e
 week6e
 week7e
 weekend1e
+week1-pico
 weekend1-bf
